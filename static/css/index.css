@@ -155,3 +155,11 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.table tr.part-header td {
+  background-color: #37b99f !important; /* same green */
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+}
