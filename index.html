@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Reasoning for IR & IR for ReasoningTutorial">
+        content="Reasoning for IR & IR for Reasoning Tutorial">
   <meta name="keywords" content="Reasoning for IR, IR for Reasoning, Tutorial, Information Retrieval, Reinforcement Learning, Neuro-symbolic AI, Bayesian Inference">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reasoning for IR & IR for Reasoning Tutorial</title>
@@ -42,47 +42,6 @@
 </head>
 <body>
 
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav> -->
-
-
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -100,14 +59,6 @@
           <i class="fas fa-home"></i>
         </span>
       </a>
-
-      <!-- Optional future navigation links -->
-      <!--
-      <a class="navbar-item" href="#abstract">Overview</a>
-      <a class="navbar-item" href="#schedule">Schedule</a>
-      <a class="navbar-item" href="#materials">Materials</a>
-      <a class="navbar-item" href="#organizers">Organizers</a>
-      -->
     </div>
   </div>
 </nav>
@@ -238,42 +189,101 @@
       <table class="table is-fullwidth">
         <thead>
           <tr>
-            <th>Time</th>
+            <th style="width: 15%;">Time</th>
             <th>Session</th>
-            <th>Presenter(s)</th>
+            <th style="width: 15%;">Duration</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>09:00 – 09:30</td>
-            <td>Welcome & Introduction</td>
-            <td>Mohanna Hoveyda</td>
+          <!-- Part 1 -->
+          <tr class="is-selected">
+            <td colspan="3"><strong>Part I — Introduction &amp; Motivation</strong></td>
           </tr>
           <tr>
-            <td>09:30 – 10:15</td>
-            <td>Foundations of Reasoning in IR</td>
-            <td>Panagiotis Eustratiadis</td>
+            <td>09:00 – 09:15</td>
+            <td>Why reasoning is central for IR; overview of tutorial structure and goals.</td>
+            <td>15 min</td>
+          </tr>
+
+          <!-- Part 2 -->
+          <tr class="is-selected">
+            <td colspan="3"><strong>Part II — The Challenge of Reasoning in Information Retrieval</strong></td>
           </tr>
           <tr>
-            <td>10:15 – 10:30</td>
-            <td>Break</td>
-            <td>—</td>
+            <td>09:15 – 09:45</td>
+            <td>Empirical and theoretical challenges: negation, exclusion, composition, and multi-hop reasoning.</td>
+            <td>30 min</td>
+          </tr>
+
+          <!-- Part 3 -->
+          <tr class="is-selected">
+            <td colspan="3"><strong>Part III — Methodological Families</strong></td>
           </tr>
           <tr>
-            <td>10:30 – 11:15</td>
-            <td>Logical & Probabilistic Frameworks</td>
-            <td>Arjen P. de Vries</td>
+            <td>09:45 – 10:05</td>
+            <td><i>LLM-based Approaches:</i> inference-time, self-consistency, and RL-based reasoning.</td>
+            <td>20 min</td>
           </tr>
           <tr>
-            <td>11:15 – 12:00</td>
-            <td>Neuro-Symbolic and LLM-based Reasoning</td>
-            <td>Maarten de Rijke</td>
+            <td>10:05 – 10:20</td>
+            <td><i>Neuro-Symbolic Reasoning:</i> solvers, probabilistic logic programming, and hybrid pipelines.</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td>10:20 – 10:35</td>
+            <td><i>Probabilistic Frameworks:</i> Bayesian reasoning and uncertainty modeling in IR.</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td>10:35 – 10:55</td>
+            <td><i>Representation Spaces:</i> geometric and set-compositional reasoning structures.</td>
+            <td>20 min</td>
+          </tr>
+          <tr>
+            <td>10:55 – 11:15</td>
+            <td><i>Energy-based Models:</i> reasoning as optimization and constraint satisfaction.</td>
+            <td>20 min</td>
+          </tr>
+
+          <!-- Part 4 -->
+          <tr class="is-selected">
+            <td colspan="3"><strong>Part IV — Comparative Framework</strong></td>
+          </tr>
+          <tr>
+            <td>11:15 – 11:45</td>
+            <td>Mapping methods along three axes: representational adequacy, inference verification, and computational viability.</td>
+            <td>30 min</td>
+          </tr>
+
+          <!-- Part 5 -->
+          <tr class="is-selected">
+            <td colspan="3"><strong>Part V — Discussion &amp; Outlook</strong></td>
+          </tr>
+          <tr>
+            <td>11:45 – 12:00</td>
+            <td>Key gaps, promising directions, and open challenges toward robust reasoning for IR.</td>
+            <td>15 min</td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 </section>
+
+<!-- <section class="section" id="reading-list">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Reading List</h2>
+    <div class="content has-text-justified">
+      <p>Below are key articles and papers relevant to this tutorial. </p>
+      <ul>
+        <li><strong>[Foundational]</strong> Author1 et al., <em>Title of Paper 1</em>. Year.</li>
+        <li><strong>[Frameworks]</strong> Author2 et al., <em>Title of Paper 2</em>. Year.</li>
+        <li><strong>[Applications]</strong> Author3 et al., <em>Title of Paper 3</em>. Year.</li>
+        <li><strong>[Challenges]</strong> Author4 et al., <em>Title of Paper 4</em>. Year.</li>
+      </ul>
+    </div>
+  </div>
+</section> -->
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
