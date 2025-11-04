@@ -156,3 +156,39 @@ body {
   border-radius: 5px;
 }
 
+
+/* Split title visually */
+.publication-title {
+  line-height: 1.2;
+}
+.publication-title .subtitle-line {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+/* Speaker photos */
+.speaker-photo {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.speaker-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Affiliation logos */
+.affiliation-logo {
+  height: 25px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+/* Adjust spacing */
+.speakers {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
