@@ -195,29 +195,37 @@ body {
 
 
 
-
-/* Title hierarchy for hero section */
+/* Title hierarchy */
 .publication-title {
-  line-height: 1.3;
+  line-height: 1.25;
   margin-bottom: 1.5rem;
+  color: #111;
 }
 
+/* Small "Tutorial:" line */
 .tutorial-label {
   display: block;
-  font-size: 1.5rem;     /* smaller than the main title */
+  font-size: 1.5rem;       /* visibly smaller */
   font-weight: 500;
-  color: #555;
+  color: #666;
   letter-spacing: 0.5px;
 }
 
+/* Large, dominant main title */
 .main-title {
   display: block;
-  font-size: 2.5rem;     /* larger, dominant line */
-  font-weight: 700;
-  color: #222;
+  font-size: 3rem;         /* large again */
+  font-weight: 800;
+  color: #111;
+  margin-top: 0.3rem;
 }
 
-/* On smaller screens, scale down gracefully */
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .main-title {
+    font-size: 2.4rem;
+  }
+}
 @media (max-width: 768px) {
   .tutorial-label {
     font-size: 1.2rem;
