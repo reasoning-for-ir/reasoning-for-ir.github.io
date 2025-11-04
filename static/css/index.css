@@ -243,3 +243,17 @@ body {
     font-size: 2rem;
   }
 }
+
+/* Speaker name adjustments */
+.speakers .title.is-5 {
+  font-size: 1.05rem;      /* default is ~1.25rem, so this is slightly smaller */
+  font-weight: 600;        /* was bold; now medium-bold for softer look */
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Optional: make the university line a bit lighter and smaller
+.speakers .is-size-6 {
+  font-size: 0.9rem;
+  color: #666;
+} */
