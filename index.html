@@ -311,7 +311,7 @@
   </div>
 </section>
 
-<section class="Part" id="reading-list">
+<!-- <section class="Part" id="reading-list">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Reading List</h2>
 
@@ -334,6 +334,72 @@
       <h3 class="title is-5 mt-5">Part IV</h3>
       <ul>
         <li><strong>[1]</strong> Author et al. <em>Title of Paper 1</em>. <span class="year">Year</span>.</li>
+      </ul>
+    </div>
+  </div>
+</section> -->
+
+<section class="Part" id="reading-list-generated">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Reading List</h2>
+    <div class="content has-text-justified">
+      <p> Below are the key references discussed in this tutorial, organized by topic. Bold papers are discussed in depth. </p>
+      <h3 class="title is-5 mt-5">Part II — Definition & Challenges in IR</h3>
+      <ul>
+<li><strong>[1]</strong> Orion Weller, Dawn J. Lawrie, Benjamin Van Durme. <em>NevIR: Negation in Neural Information Retrieval</em>. EACL. 2024.</li>
+<li><strong>[2]</strong> Roxana Petcu, Samarth Bhargav, Maarten de Rijke et al.. <em>A Comprehensive Taxonomy of Negation for NLP and Neural Retrievers</em>. EMNLP. 2025.</li>
+<li><strong>[3]</strong> Coen van den Elsen, Francien Barkhof, Thijmen Nijdam et al.. <em>Reproducing NevIR: Negation in Neural Information Retrieval</em>. SIGIR 2025. 2025.</li>
+<li><strong>[4]</strong> Wenhao Zhang, Mengqi Zhang, Shiguang Wu et al.. <em>ExcluIR: Exclusionary neural information retrieval</em>. AAAI. 2025.</li>
+<li><strong>[5]</strong> Chaitanya Malaviya, Peter Shaw, Ming-Wei Chang et al.. <em>QUEST: A Retrieval Dataset of Entity-Seeking Queries with Implicit Set Operations</em>. ACL. 2023.</li>
+<li><strong>[6]</strong> Hongjin Su, Howard Yen, Mengzhou Xia et al.. <em>BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval</em>. ICLR. 2025.</li>
+<li><strong>[7]</strong> Zijian Chen, Xueguang Ma, Shengyao Zhuang et al.. <em>BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent</em>. 2025.</li>
+<li><strong>[8]</strong> Julian Killingback, Hamed Zamani. <em>Benchmarking Information Retrieval Models on Complex Retrieval Tasks</em>. 2025.</li>
+<li><strong>[9]</strong> Orion Weller, Michael Boratko, Iftekhar Naim et al.. <em>On the Theoretical Limitations of Embedding-Based Retrieval</em>. 2025.</li>
+<li><strong>[10]</strong> Adam Tauman Kalai, Ofir Nachum, Santosh S. Vempala et al.. <em>Why Language Models Hallucinate</em>. 2025.</li>
+      </ul>
+      <h3 class="title is-5 mt-5">Part III — Methodological Families</h3>
+      <h4 class="title is-6 mt-3">LLM inference-time strategies and optimization for reasoning</h4>
+      <ul>
+<li><strong>[1]</strong> Jason Wei, Xuezhi Wang, Dale Schuurmans et al.. <em>Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</em>. NeurIPS. 2022.</li>
+<li><strong>[2]</strong> Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot et al.. <em>Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions</em>. ACL. 2023.</li>
+<li><strong>[3]</strong> Aman Madaan, Niket Tandon, Prakhar Gupta et al.. <em>SELF-REFINE: iterative refinement with self-feedback</em>. NeurIPS. 2023.</li>
+<li><strong>[4]</strong> Jonas H\"ubotter, Sascha Bongni, Ido Hakimi et al.. <em>Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs</em>. Adaptive Foundation Models: Evolving AI for Personalized and Efficient Learning. 2024.</li>
+<li><strong>[5]</strong> Xuezhi Wang, Denny Zhou. <em>Chain-of-thought reasoning without prompting</em>. NeurIPS. 2024.</li>
+<li><strong>[6]</strong> Laura Ruis, Maximilian Mozes, Juhan Bae et al.. <em>Procedural Knowledge in Pretraining Drives Reasoning in Large Language Models</em>. ICLR. 2025.</li>
+      </ul>
+      <h4 class="title is-6 mt-3">LLMs + RL</h4>
+      <ul>
+<li><strong>[1]</strong> Long Ouyang, Jeffrey Wu, Xu Jiang et al.. <em>Training language models to follow instructions with human feedback</em>. NeurIPS. 2022.</li>
+<li><strong>[2]</strong> DeepSeek AI. <em>DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning</em>. Nature. 2025.</li>
+<li><strong>[3]</strong> Bowen Jin, Hansi Zeng, Zhenrui Yue et al.. <em>Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning</em>. COLM. 2025.</li>
+<li><strong>[4]</strong> Yang Yue, Zhiqi Chen, Rui Lu et al.. <em>Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</em>. AI for Math Workshop @ ICML 2025. 2025.</li>
+<li><strong>[5]</strong> Rajkumar Ramamurthy and. <em>Is Reinforcement Learning (Not) for Natural Language Processing: Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization</em>. ICLR. 2023.</li>
+      </ul>
+      <h4 class="title is-6 mt-3">Neuro-symbolic approaches:</h4>
+      <ul>
+<li><strong>[1]</strong> C J Van Rijsbergen. <em>A new theoretical framework for information retrieval</em>. SIGIR Forum. 1986.</li>
+<li><strong>[2]</strong> Theo Olausson, Alex Gu, Ben Lipkin et al.. <em>LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers</em>. EMNLP. 2023.</li>
+<li><strong>[3]</strong> Aliakbar Nafar, Kristen Brent Venable, Parisa Kordjamshidi. <em>Reasoning over uncertain text by generative large language models</em>. AAAI. 2025.</li>
+<li><strong>[4]</strong> Lionel Wong, Katherine M. Collins, Lance Ying et al.. <em>Modeling Open-World Cognition as On-Demand Synthesis of Probabilistic Models</em>. 2025.</li>
+<li><strong>[5]</strong> Lionel Wong, Gabriel Grand, Alexander K. Lew et al.. <em>From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought</em>. 2023.</li>
+      </ul>
+      <h4 class="title is-6 mt-3">Probabilistic and Bayesian Frameworks</h4>
+      <ul>
+<li><strong>[1]</strong> Linlu Qiu, Fei Sha, Kelsey R. Allen et al.. <em>Bayesian Teaching Enables Probabilistic Reasoning in Large Language Models</em>. 2025.</li>
+<li><strong>[2]</strong> Matthew Douglas Hoffman, Du Phan, David Dohan et al.. <em>Training Chain-of-Thought via Latent-Variable Inference</em>. NeurIPS. 2023.</li>
+<li><strong>[3]</strong> Yu Feng, Ben Zhou, Weidong Lin et al.. <em>BIRD: A Trustworthy Bayesian Inference Framework for Large Language Models</em>. ICLR. 2025.</li>
+<li><strong>[4]</strong> Zhangyue Yin, Qiushi Sun, Qipeng Guo et al.. <em>Reasoning in flux: Enhancing large language models reasoning through uncertainty-aware adaptive guidance</em>. ACL. 2024.</li>
+      </ul>
+      <h4 class="title is-6 mt-3">Alternative representation spaces and optimization approaches:</h4>
+      <ul>
+<li><strong>[1]</strong> Tejas Chheda, Purujit Goyal, Trang Tran et al.. <em>Box Embeddings: An open-source library for representation learning using geometric structures</em>. EMNLP. 2021.</li>
+<li><strong>[2]</strong> Antonios Minas Krasakis, Andrew Yates, Evangelos Kanoulas. <em>Constructing Set-Compositional and Negated Representations for First-Stage Ranking</em>. 2025.</li>
+<li><strong>[3]</strong> Tiansi Dong, Mateja Jamnik, Pietro Liò. <em>Neural Reasoning for Sure Through Constructing Explainable Models</em>. AAAI. 2025.</li>
+<li><strong>[4]</strong> Weize Chen, Xu Han, Yankai Lin et al.. <em>Hyperbolic Pre-Trained Language Model</em>. IEEE ACM Trans. Audio Speech Lang. Process.. 2024.</li>
+<li><strong>[5]</strong> Menglin Yang, Aosong Feng, Bo Xiong et al.. <em>Hyperbolic Fine-tuning for Large Language Models</em>. 2024.</li>
+<li><strong>[6]</strong> Menglin Yang, Aosong Feng, Bo Xiong et al.. <em>Enhancing LLM Complex Reasoning Capability through Hyperbolic Geometry</em>. ICML 2024 Workshop on LLMs and Cognition. 2024.</li>
+<li><strong>[7]</strong> Yilun Du, Jiayuan Mao, Joshua B. Tenenbaum. <em>Learning Iterative Reasoning through Energy Diffusion</em>. ICML. 2024.</li>
+<li><strong>[8]</strong> Alexi Gladstone, Ganesh Nanduru, Md Mofijul Islam et al.. <em>Energy-Based Transformers are Scalable Learners and Thinkers</em>. 2025.</li>
       </ul>
     </div>
   </div>
