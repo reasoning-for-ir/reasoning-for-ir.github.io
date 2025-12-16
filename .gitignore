@@ -1,4 +1,27 @@
 .DS_store
 .idea
 index_copy.html
-./archived
+archived/
+
+
+
+
+# Jekyll build output
+_site/
+
+# Jekyll / Ruby / Bundler
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# macOS noise
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+node_modules/
